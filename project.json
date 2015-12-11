@@ -1,0 +1,10 @@
+{
+    "name": "forwards",
+    "version": "1.0.0",
+    "manifest_version": 1,
+    "project_type": "application",
+    "executable_type": "scratch",
+    "executable": "forwards.xml",
+    "author": "JeevyKiwi",
+    "minimum_firmware_version": 42
+}
