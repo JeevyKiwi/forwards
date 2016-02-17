@@ -1,7 +1,6 @@
 <xml xmlns="http://www.w3.org/1999/xhtml">
-  <block type="controls_whileUntil" id="81" inline="false" x="211" y="72">
-    <field name="MODE">WHILE</field>
-    <value name="NUMBER">
+  <block type="controls_if" id="124" inline="false" x="362" y="61">
+    <value name="IF0">
       <block type="logic_operation" id="74" inline="true">
         <field name="OP">LAND</field>
         <value name="A">
@@ -16,7 +15,7 @@
         </value>
       </block>
     </value>
-    <statement name="DO">
+    <statement name="DO0">
       <block type="movement_forward" id="1">
         <next>
           <block type="robot_delay" id="90" inline="true">
@@ -30,7 +29,7 @@
       </block>
     </statement>
     <next>
-      <block type="movement_stop" id="4"></block>
+      <block type="movement_stop" id="137"></block>
     </next>
   </block>
 </xml>
